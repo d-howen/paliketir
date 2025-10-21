@@ -1,0 +1,8 @@
+
+ NX   Failed to process project graph.
+
+An error occurred while processing files for the @nx/vite/plugin plugin (Defined at nx.json#plugins[3])
+.
+  - apps/paliketir/vite.config.ts: crypto.hash is not a function
+
+
