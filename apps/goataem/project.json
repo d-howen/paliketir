@@ -1,0 +1,27 @@
+{
+  "name": "goataem",
+  "root": "apps/goataem",
+  "sourceRoot": "apps/goataem/app",
+  "projectType": "application",
+  "targets": {
+    "serve": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "npm run dev --prefix apps/goataem",
+        "configFile": "vite.config.ts"
+      }
+    },
+    "build": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "npm run build --prefix apps/goataem"
+      }
+    },
+    "start": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "npm run start --prefix apps/goataem"
+      }
+    }
+  }
+}

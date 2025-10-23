@@ -20,7 +20,7 @@
     "@nx/jest": "21.6.5",
     "@nx/js": "21.6.5",
     "@nx/playwright": "21.6.5",
-    "@nx/react": "21.6.5",
+    "@nx/react": "^21.3.11",
     "@nx/vite": "21.6.5",
     "@nx/web": "21.6.5",
     "@nx/workspace": "21.6.5",
@@ -36,7 +36,7 @@
     "@types/node": "20.19.9",
     "@types/react": "19.0.0",
     "@types/react-dom": "19.0.0",
-    "@vitejs/plugin-react": "^4.2.0",
+    "@vitejs/plugin-react": "^4.2.1",
     "@vitest/ui": "^3.0.0",
     "autoprefixer": "10.4.13",
     "babel-jest": "^30.0.2",
@@ -61,7 +61,7 @@
     "tslib": "^2.3.0",
     "typescript": "~5.9.2",
     "typescript-eslint": "^8.40.0",
-    "vite": "^7.0.0",
+    "vite": "^6.0.0",
     "vitest": "^3.0.0"
   },
   "workspaces": [

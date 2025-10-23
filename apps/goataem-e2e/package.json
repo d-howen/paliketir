@@ -1,10 +1,10 @@
 {
-  "name": "@paliketir/goataem-e2e",
+  "name": "goataem-e2e",
   "version": "0.0.1",
   "private": true,
   "nx": {
     "implicitDependencies": [
-      "@paliketir/goataem"
+      "goataem"
     ]
   }
 }

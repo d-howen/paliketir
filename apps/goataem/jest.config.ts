@@ -1,5 +1,5 @@
 export default {
-  displayName: '@paliketir/goataem',
+  displayName: 'goataem',
   preset: '../../jest.preset.js',
   setupFilesAfterEnv: ['<rootDir>/src/test-setup.ts'],
   transform: {
