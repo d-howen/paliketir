@@ -1,9 +1,12 @@
-import NxWelcome from './nx-welcome';
+import WorldMapPage from './nx-welcome';
 
 export function App() {
   return (
-    <div>
+    /**<div>
       <NxWelcome title="@paliketir/goataem" />
+    </div>*/
+    <div>
+      <WorldMapPage  />
     </div>
   );
 }
